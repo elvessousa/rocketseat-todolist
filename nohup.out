@@ -1,0 +1,230 @@
+2025-01-18 13:55:33,343 [    388]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.android.AndroidPlugin, plugin=org.jetbrains.android)
+2025-01-18 13:55:33,368 [    413]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key kotlin.mpp.tests.force.gradle: it was defined by plugin org.jetbrains.kotlin but redefined by plugin org.jetbrains.kotlin. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 13:55:33,369 [    414]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 13:55:33,369 [    414]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk.auto: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 13:55:33,370 [    415]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk.modal.jps: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 13:55:33,370 [    415]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk.show.editor.actions: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 13:55:33,370 [    415]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key gradle.phased.sync.enabled: it was defined by plugin com.intellij.gradle but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+Warning: Not allowed as a service: java.awt.Window.CustomTitleBarPeer
+	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+Warning: Service not supported: com.jetbrains.WindowDecorations
+	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2025-01-18 13:55:33,423 [    468]   WARN - #c.i.o.v.n.p.FSRecords - Records storage [/home/elvessousa/.cache/Google/AndroidStudio2024.2/caches/records.dat] was in use by process [OwnershipInfo{owner pid: 57923, acquired at: 1736728902921}] which is not exist now (wasn't closed properly/crashed?) -> re-acquiring forcibly
+2025-01-18 13:55:33,478 [    523]   WARN - #c.i.o.v.n.p.PersistentFSLoader - [VFS load problem]: VFS wasn't safely shut down: records.wasClosedProperly is false
+2025-01-18 13:55:33,485 [    530]   WARN - #c.i.o.v.n.p.PersistentFSLoader - [VFS load problem]: NOT_CLOSED_PROPERLY recovered, no problems remain
+2025-01-18 13:55:33,751 [    796]   WARN - #c.i.o.a.Application - issue detected: ide.script.launcher.used
+2025-01-18 13:55:34,615 [   1660]   WARN - #c.i.u.j.JBCefApp - JCefAppConfig.class is not from a JBR module, url: jar:file:/nix/store/rv21jwhcxshs1lbvx10gzc1d1cn6r1f4-android-studio-stable-2024.2.1.9-unwrapped/lib/lib.jar!/com/jetbrains/cef/JCefAppConfig.class (Use JBR bundled with the IDE)
+2025-01-18 13:55:35,850 [   2895]   WARN - #com.android.tools.idea.updater.SdkComponentSource - Errors during XML parse:
+2025-01-18 13:55:35,850 [   2895]   WARN - #com.android.tools.idea.updater.SdkComponentSource - Additionally, the fallback loader failed to parse the XML.
+2025-01-18 13:55:35,906 [   2951]   WARN - #com.android.tools.idea.updater.SdkComponentSource - Errors during XML parse:
+2025-01-18 13:55:35,906 [   2951]   WARN - #com.android.tools.idea.updater.SdkComponentSource - Additionally, the fallback loader failed to parse the XML.
+Warning: Not allowed as a service: com.jetbrains.RoundedCornersManager
+	at com.jetbrains.JBR$RoundedCornersManager__Holder.<clinit>(JBR.java:514)
+	at com.jetbrains.JBR.isRoundedCornersManagerSupported(JBR.java:524)
+	at com.intellij.ui.WindowRoundedCornersManager.isAvailable(WindowRoundedCornersManager.java:36)
+	at com.intellij.ui.popup.AbstractPopup.show(AbstractPopup.java:1033)
+	at com.intellij.ui.popup.WizardPopup.show(WizardPopup.java:231)
+	at com.intellij.ui.popup.AbstractPopup.show(AbstractPopup.java:654)
+	at com.intellij.ui.components.DropDownLink._init_$lambda$0(DropDownLink.kt:40)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.kt:635)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$14(IdeEventQueue.kt:581)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:581)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:114)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-01-18 13:55:39,986 [   7031]   WARN - #com.android.ddmlib - * daemon not running; starting now at tcp:5037
+2025-01-18 13:55:40,991 [   8036]   WARN - #com.android.ddmlib - * daemon started successfully
+2025-01-18 13:55:42,762 [   9807]   WARN - Emulator: Pixel 3a API 35 - The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2025-01-18 13:55:42,773 [   9818]   WARN - Emulator: Pixel 3a API 35 - *** Basic token auth should only be used by android-studio ***
+2025-01-18 13:55:42,967 [  10012]   WARN - Emulator: Pixel 3a API 35 - Device 'cache' does not have the requested snapshot 'default_boot'
+2025-01-18 13:55:42,967 [  10012]   WARN - Emulator: Pixel 3a API 35 - Failed to load snapshot 'default_boot'
+2025-01-18 13:55:50,721 [  17766]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 13:55:51,760 [  18805]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 13:55:52,785 [  19830]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 13:55:53,805 [  20850]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 13:55:54,831 [  21876]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 13:55:55,866 [  22911]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 16:58:46,427 [10993472]   WARN - Emulator: Pixel 3a API 35 - Not saving state: current state does not support snapshotting
+2025-01-18 16:58:46,429 [10993474]   WARN - Emulator: Pixel 3a API 35 - close() failed: Bad file descriptor
+2025-01-18 16:58:46,430 [10993475]   WARN - Emulator: Pixel 3a API 35 - close() failed: Bad file descriptor
+2025-01-18 16:58:46,831 [10993876]   WARN - Emulator: Pixel 3a API 35 - stop: Not implemented
+2025-01-18 16:58:51,719 [10998764]   WARN - Emulator: Pixel 3a API 35 - The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2025-01-18 16:58:51,723 [10998768]   WARN - Emulator: Pixel 3a API 35 - *** Basic token auth should only be used by android-studio ***
+2025-01-18 16:58:51,912 [10998957]   WARN - Emulator: Pixel 3a API 35 - Device 'cache' does not have the requested snapshot 'default_boot'
+2025-01-18 16:58:51,912 [10998957]   WARN - Emulator: Pixel 3a API 35 - Failed to load snapshot 'default_boot'
+2025-01-18 16:59:00,127 [11007172]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 16:59:01,147 [11008192]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 16:59:02,164 [11009209]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 16:59:03,223 [11010268]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 16:59:04,289 [11011334]   WARN - #com.android.tools.idea.avdmanager.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null
+2025-01-18 17:05:39,884 [    424]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.android.AndroidPlugin, plugin=org.jetbrains.android)
+2025-01-18 17:05:39,913 [    453]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key kotlin.mpp.tests.force.gradle: it was defined by plugin org.jetbrains.kotlin but redefined by plugin org.jetbrains.kotlin. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 17:05:39,914 [    454]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 17:05:39,914 [    454]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk.auto: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 17:05:39,914 [    454]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk.modal.jps: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 17:05:39,915 [    455]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key unknown.sdk.show.editor.actions: it was defined by plugin com.intellij but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-01-18 17:05:39,915 [    455]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key gradle.phased.sync.enabled: it was defined by plugin com.intellij.gradle but redefined by plugin org.jetbrains.android. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+Warning: Not allowed as a service: java.awt.Window.CustomTitleBarPeer
+	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+Warning: Service not supported: com.jetbrains.WindowDecorations
+	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2025-01-18 17:05:40,260 [    800]   WARN - #c.i.o.a.Application - issue detected: ide.script.launcher.used
+2025-01-18 17:05:41,068 [   1608]   WARN - #c.i.u.j.JBCefApp - JCefAppConfig.class is not from a JBR module, url: jar:file:/nix/store/rv21jwhcxshs1lbvx10gzc1d1cn6r1f4-android-studio-stable-2024.2.1.9-unwrapped/lib/lib.jar!/com/jetbrains/cef/JCefAppConfig.class (Use JBR bundled with the IDE)
+Warning: Not allowed as a service: com.jetbrains.RoundedCornersManager
+	at com.jetbrains.JBR$RoundedCornersManager__Holder.<clinit>(JBR.java:514)
+	at com.jetbrains.JBR.isRoundedCornersManagerSupported(JBR.java:524)
+	at com.intellij.ui.WindowRoundedCornersManager.isAvailable(WindowRoundedCornersManager.java:36)
+	at com.intellij.ui.popup.AbstractPopup.show(AbstractPopup.java:1033)
+	at com.intellij.ui.popup.WizardPopup.show(WizardPopup.java:231)
+	at com.intellij.ui.popup.AbstractPopup.show(AbstractPopup.java:654)
+	at com.intellij.ui.components.DropDownLink._init_$lambda$0(DropDownLink.kt:40)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.kt:635)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$14(IdeEventQueue.kt:581)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:581)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:114)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-01-18 17:05:46,335 [   6875]   WARN - #com.android.ddmlib - * daemon not running; starting now at tcp:5037
+2025-01-18 17:05:47,339 [   7879]   WARN - #com.android.ddmlib - * daemon started successfully
+2025-01-18 17:05:49,674 [  10214]   WARN - Emulator: Pixel 3a API 35 - The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2025-01-18 17:05:49,679 [  10219]   WARN - Emulator: Pixel 3a API 35 - *** Basic token auth should only be used by android-studio ***
+2025-01-18 17:05:49,863 [  10403]   WARN - Emulator: Pixel 3a API 35 - Device 'cache' does not have the requested snapshot 'default_boot'
+2025-01-18 17:05:49,864 [  10404]   WARN - Emulator: Pixel 3a API 35 - Failed to load snapshot 'default_boot'
